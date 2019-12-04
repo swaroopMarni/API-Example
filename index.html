@@ -57,7 +57,7 @@
                 var city = $("#input-city").val();
                 $.ajax({
                     type: "POST",
-                    url: "http://api.openweathermap.org/data/2.5/weather?q="+ city +"&appid=a37cec0467561d22f52c421d0f1c7aa9&units=imperial",
+                    url: "https://api.openweathermap.org/data/2.5/weather?q="+ city +"&appid=a37cec0467561d22f52c421d0f1c7aa9&units=imperial",
                     dataType : "json",
                     success: function(result, status, xhr){
                         console.log(result);
